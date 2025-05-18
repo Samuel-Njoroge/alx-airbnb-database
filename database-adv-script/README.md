@@ -69,3 +69,4 @@ FROM user u
 FULL OUTER JOIN booking b
     ON b.user_id = u.user_id 
 ```
+
