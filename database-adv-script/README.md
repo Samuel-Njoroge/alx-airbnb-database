@@ -43,6 +43,7 @@ SELECT
 FROM property p
 LEFT JOIN review r
     ON p.property_id = r.property_id
+ORDER BY p.property_id ASC
 ```
 
 ### 3. All users and all bookings ( FULL OUTER JOIN)
